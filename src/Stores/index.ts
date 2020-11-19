@@ -1,10 +1,10 @@
 import CountStore from "./countStore";
 
 class RootStore {
-  count: CountStore;
+  countStore: CountStore;
 
   constructor() {
-    this.count = new CountStore(this);
+    this.countStore = new CountStore(this);
   }
 }
 
